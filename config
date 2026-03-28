@@ -51,16 +51,16 @@ keybind = vim/g=scroll_to_top
 keybind = vim/shift+g=scroll_to_bottom
 
 # -- Prompt jump (shell integration required) --
-keybind = vim/open_bracket=jump_to_prompt:-1
-keybind = vim/close_bracket=jump_to_prompt:1
+keybind = vim/[=jump_to_prompt:-1
+keybind = vim/]=jump_to_prompt:1
 
 # -- Selection --
 keybind = vim/shift+j=adjust_selection:down
 keybind = vim/shift+k=adjust_selection:up
 keybind = vim/shift+h=adjust_selection:left
 keybind = vim/shift+l=adjust_selection:right
-keybind = vim/zero=adjust_selection:beginning_of_line
-keybind = vim/shift+four=adjust_selection:end_of_line
+keybind = vim/0=adjust_selection:beginning_of_line
+keybind = vim/shift+4=adjust_selection:end_of_line
 
 # -- Clipboard --
 keybind = vim/y=copy_to_clipboard
@@ -86,11 +86,11 @@ keybind = vim/ctrl+q>equal=equalize_splits
 keybind = vim/t=new_tab
 keybind = vim/ctrl+n=next_tab
 keybind = vim/ctrl+p=previous_tab
-keybind = vim/one=goto_tab:1
-keybind = vim/two=goto_tab:2
-keybind = vim/three=goto_tab:3
-keybind = vim/four=goto_tab:4
-keybind = vim/five=goto_tab:5
+keybind = vim/1=goto_tab:1
+keybind = vim/2=goto_tab:2
+keybind = vim/3=goto_tab:3
+keybind = vim/4=goto_tab:4
+keybind = vim/5=goto_tab:5
 
 # -- Exit vim mode --
 keybind = vim/escape=deactivate_key_table
