@@ -35,10 +35,10 @@ keybind = ctrl+u=scroll_page_fractional:-0.5
 
 # =========================
 # Vim mode (Key Table)
-# Enter: Ctrl+Q then Escape
+# Enter: Ctrl+Q then Space
 # Exit: Escape or i
 # =========================
-keybind = ctrl+q>escape=activate_key_table:vim
+keybind = ctrl+q>space=activate_key_table:vim
 
 # -- Scroll --
 keybind = vim/j=scroll_page_lines:3
